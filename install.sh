@@ -9,5 +9,6 @@ sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 sudo systemctl start docker
 sudo docker run hello-world
 git clone https://github.com/mbps54/elk.git
+mkdir elasticsearch-data
 cd elk
 docker compose up -d
