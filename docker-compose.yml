@@ -31,7 +31,7 @@ services:
     user: root
     volumes:
       - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
-      - /root/logs:/var/log/cisco
+      - /root/elk/logs:/var/log/cisco
     command: ["-e"]
     networks:
       - elk-net
