@@ -13,7 +13,7 @@ services:
     networks:
       - elk-net
     volumes:
-      - elasticsearch-data:/usr/share/elasticsearch/data
+      - ./elasticsearch-data:/usr/share/elasticsearch/data
 
   kibana:
     image: docker.elastic.co/kibana/kibana:7.15.2
@@ -31,7 +31,7 @@ services:
     user: root
     volumes:
       - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
-      - /root/elk/logs:/var/log/cisco
+      - ./:/var/log/cisco
     command: ["-e"]
     networks:
       - elk-net
