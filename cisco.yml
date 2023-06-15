@@ -1,0 +1,5 @@
+- module: cisco
+  ios:
+    enabled: true
+    var.input: "file"
+    var.paths: ["/var/log/cisco/*.log"]

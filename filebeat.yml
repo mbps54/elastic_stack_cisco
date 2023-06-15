@@ -1,11 +1,24 @@
-filebeat.inputs:
-- type: log
-  enabled: true
-  paths:
-    - /var/log/cisco/*.log
+#filebeat.inputs:
+#- type: log
+#  enabled: true
+#  paths:
+#    - /var/log/cisco/*.log
+#  fields:
+#    log_type: cisco
+
+filebeat.input:
+- module: cisco
 
 output.elasticsearch:
-  hosts: ["elasticsearch:9200"]
+  hosts: ["http://elasticsearch:9200"]
+  username: "elastic"
+  password: "E8ggLyu5k7ITIlcesH2C"
+  ssl.verification_mode: "none"
 
 setup.kibana:
-  host: "kibana:5601"
+  host: "http://kibana:5601"
+
+filebeat.config.modules:
+  enabled: true
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: true
