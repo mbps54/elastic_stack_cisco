@@ -10,5 +10,6 @@ sudo systemctl start docker
 sudo docker run hello-world
 git clone https://github.com/mbps54/elk.git
 mkdir elasticsearch-data
+chmod 777 ./elasticsearch-data
 cd elk
 docker compose up -d
