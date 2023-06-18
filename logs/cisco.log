@@ -949,3 +949,66 @@ Jun 15 21:32:14: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: virp_artkin] [
 Jun 15 21:32:35: %SYS-6-LOGOUT: User virp_artkin has exited tty session 1(10.100.220.249)
 Jun 15 21:32:35: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: virp_artkin] [Source: 10.100.220.249] [localport: 22] at 21:32:35 GST Thu Jun 15 2023
 Jun 15 21:32:49: %SYS-6-LOGOUT: User virp_artkin has exited tty session 2(10.100.220.249)
+Jun 18 08:36:54: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/3, changed state to down
+Jun 18 08:36:57: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/3, changed state to up
+Jun 18 08:36:58: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/3, changed state to up
+Jun 18 08:48:56: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/44, changed state to down
+Jun 18 08:48:57: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/44, changed state to down
+Jun 18 08:49:01: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/44, changed state to up
+Jun 18 08:49:02: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/44, changed state to up
+Jun 18 08:49:09: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 08:49:10: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 08:49:11: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 08:49:12: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 08:49:16: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 08:49:17: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 08:49:32: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 08:49:33: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 08:49:36: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 08:49:37: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 08:50:28: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/32, changed state to up
+Jun 18 08:50:29: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/32, changed state to up
+Jun 18 08:51:18: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/32, changed state to down
+Jun 18 08:51:19: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/32, changed state to down
+Jun 18 10:36:54: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/3, changed state to down
+Jun 18 10:36:57: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/3, changed state to up
+Jun 18 10:36:58: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/3, changed state to up
+Jun 18 10:48:56: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/44, changed state to down
+Jun 18 10:48:57: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/44, changed state to down
+Jun 18 10:49:01: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/44, changed state to up
+Jun 18 10:49:02: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/44, changed state to up
+Jun 18 10:49:09: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 10:49:10: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 10:49:11: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 10:49:12: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 10:49:16: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 10:49:17: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 10:49:32: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 10:49:33: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 10:49:36: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 10:49:37: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 10:50:28: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/32, changed state to up
+Jun 18 10:50:29: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/32, changed state to up
+Jun 18 10:51:18: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/32, changed state to down
+Jun 18 10:51:19: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/32, changed state to down
+Jun 18 11:36:54: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/3, changed state to down
+Jun 18 11:36:57: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/3, changed state to up
+Jun 18 11:36:58: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/3, changed state to up
+Jun 18 11:48:56: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/44, changed state to down
+Jun 18 11:48:57: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/44, changed state to down
+Jun 18 11:49:01: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/44, changed state to up
+Jun 18 11:49:02: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/44, changed state to up
+Jun 18 11:49:09: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 11:49:10: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 11:49:11: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 11:49:12: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 11:49:16: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 11:49:17: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 11:49:32: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 11:49:33: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to down
+Jun 18 11:49:36: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 11:49:37: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/4, changed state to up
+Jun 18 11:50:28: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/32, changed state to up
+Jun 18 11:50:29: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/32, changed state to up
+Jun 18 11:51:18: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/32, changed state to down
+Jun 18 11:51:19: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/32, changed state to down

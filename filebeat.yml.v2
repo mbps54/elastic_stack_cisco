@@ -27,8 +27,10 @@ filebeat.config.modules:
   reload.enabled: true
 
 processors:
-  - dissect:
-      tokenizer: "%{month} %{day} %{time}: %{event_type}: Interface %{interface}, changed state to %{state}"
-      field: "message"
-      target_prefix: "dissect"
-
+- dissect:
+    tokenizer: "%{logdate} %{+logdate} %{+logdate}: %{loglevel}: %{message}"
+    field: "message"
+- dissect:
+    tokenizer: "Interface %{data.interface}, changed state to %{data.state}"
+    field: "message"
+    target_prefix: "data"
