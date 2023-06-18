@@ -1,0 +1,70 @@
+Jun 15 18:12:21: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:12:23: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:12:24: %LINK-3-UPDOWN: Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:12:33: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:12:42: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:12:51: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:12:53: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:13:06: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:13:16: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:13:19: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:13:21: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:13:24: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:13:31: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:13:38: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:13:45: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:13:49: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:13:53: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:13:56: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:14:35: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:14:38: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:14:45: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:14:52: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:15:06: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:15:09: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:15:11: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:15:14: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:15:18: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:15:22: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:15:24: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:15:34: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:15:44: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:30:50: %LINK-3-UPDOWN: Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:30:55: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:30:57: %LINK-3-UPDOWN: Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:31:09: %PM-4-ERR_RECOVER: Attempting to recover from storm-control err-disable state on Gi4/0/9
+Jun 15 18:31:15: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:31:34: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:31:38: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/9, changed state to up
+Jun 15 18:31:39: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/9, changed state to up
+Jun 15 18:31:41: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:31:48: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:31:50: %PM-4-ERR_DISABLE: storm-control error detected on Gi4/0/9, putting Gi4/0/9 in err-disable state
+Jun 15 18:31:50: %STORM_CONTROL-3-SHUTDOWN: A packet storm was detected on Gi4/0/9. The interface has been disabled.
+Jun 15 18:31:51: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/9, changed state to down
+Jun 15 18:31:51: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:31:52: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/9, changed state to down
+Jun 15 18:31:53: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:32:00: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:32:08: %LINK-3-UPDOWN: Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:32:13: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:32:30: %LINK-3-UPDOWN: Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:32:50: %PM-4-ERR_RECOVER: Attempting to recover from storm-control err-disable state on Gi4/0/9
+Jun 15 18:32:51: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:32:53: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:33:01: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:33:15: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:33:18: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:33:19: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/9, changed state to up
+Jun 15 18:33:20: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/9, changed state to up
+Jun 15 18:33:23: %PM-4-ERR_DISABLE: storm-control error detected on Gi4/0/9, putting Gi4/0/9 in err-disable state
+Jun 15 18:33:23: %STORM_CONTROL-3-SHUTDOWN: A packet storm was detected on Gi4/0/9. The interface has been disabled.
+Jun 15 18:33:24: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4/0/9, changed state to down
+Jun 15 18:33:25: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:33:25: %LINK-3-UPDOWN: Interface GigabitEthernet4/0/9, changed state to down
+Jun 15 18:33:32: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:33:34: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:33:37: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+Jun 15 18:33:39: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to up
+Jun 15 18:33:42: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/21, changed state to down
+

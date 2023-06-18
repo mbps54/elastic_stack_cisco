@@ -1,5 +1,12 @@
 filebeat.input:
 - module: cisco
+  fields:
+    - name: log_filename
+      path: path
+      processor: dissect
+      tokenizer: "/var/log/cisco/%{filename}.log"
+      target_prefix: 'dissect'
+
 
 output.elasticsearch:
   hosts: ["http://elasticsearch:9200"]
@@ -23,4 +30,10 @@ processors:
       tokenizer: "%{month} %{day} %{time}: %{event_type}: %{message}"
       field: "message"
       target_prefix: "dissect"
-
+  - dissect:
+      tokenizer: "/var/log/cisco/%{log_filename}.log"
+      field: "log.file.path"
+      target_prefix: ""
+  - rename:
+      fields:
+        - { from: "log_filename", to: "host_ip" }

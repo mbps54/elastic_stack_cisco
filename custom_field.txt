@@ -1,0 +1,15 @@
+PUT filebeat-8.8.1/_mapping
+{
+  "properties": {
+    "host_ip": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      },
+      "fielddata": true
+    }
+  }
+}
