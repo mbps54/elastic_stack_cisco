@@ -1,11 +1,3 @@
-#filebeat.inputs:
-#- type: log
-#  enabled: true
-#  paths:
-#    - /var/log/cisco/*.log
-#  fields:
-#    log_type: cisco
-
 filebeat.input:
 - module: cisco
 
@@ -28,7 +20,7 @@ filebeat.config.modules:
 
 processors:
   - dissect:
-      tokenizer: "%{month} %{day} %{time}: %{event_type}: Interface %{interface}, changed state to %{state}"
+      tokenizer: "%{month} %{day} %{time}: %{event_type}: %{message}"
       field: "message"
       target_prefix: "dissect"
 
