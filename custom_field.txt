@@ -13,3 +13,23 @@ PUT filebeat-8.8.1/_mapping
     }
   }
 }
+
+
+PUT syslog-ng
+{
+  "mappings": {
+    "properties": {
+      "dissect.month": { "type": "text" },
+      "dissect.day": { "type": "text" },
+      "dissect.time": { "type": "text" },
+      "dissect.ip": { "type": "ip" },
+      "dissect.hostname": { "type": "text" },
+      "dissect.sq": { "type": "text" },
+      "dissect.month_log": { "type": "text" },
+      "dissect.day_log": { "type": "text" },
+      "dissect.time_log": { "type": "text" },
+      "dissect.event_type": { "type": "text" },
+      "dissect.message": { "type": "text" }
+    }
+  }
+}
